@@ -1,0 +1,8 @@
+@import '_libs.css';
+
+body{
+  background: red;
+  &::after{
+    content: '';
+  }
+}
